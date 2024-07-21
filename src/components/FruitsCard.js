@@ -7,7 +7,7 @@ const FruitsCard = ({fruit}) => {
             className='w-full h-52 object-cover	'/>
         <div className='flex flex-col items-center my-2 py-2'>
             <span className='font-body text-slate-500 block'>{fruit.name}</span>
-            <span className='font-body text-slate-500'>₹{fruit.price}</span>
+            <span className='font-body text-slate-500'>Rs.{fruit.price}</span>
         </div>
     </div>
   )
